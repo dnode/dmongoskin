@@ -1,0 +1,16 @@
+{
+  "name": "dmongoskin",
+  "description": "Get the MongoDB connection with the bound collections",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dnode/dmongoskin",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "src/lib.js",
+  "dependencies": {
+    "mongoskin": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnode/dmongoskin.git"
+  }
+}
