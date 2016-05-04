@@ -3,7 +3,7 @@
 const mongoskin = require('mongoskin');
 
 module.exports = (url, collections) => {
-  let db = mongoskin.db(url, { safe: true });
+  const db = mongoskin.db(url, { safe: true });
   db.toObjectID = mongoskin.helper.toObjectID;
   for (let collection of collections) {
     db.bind(collection[0]);

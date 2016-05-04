@@ -3,7 +3,7 @@
 
 # Example
 ```javascript
-let db = require('dmongoskin')('url', [
+const db = require('dmongoskin')('url', [
   ['examples', [
     [{ example: 1 }, { unique: true }]
   ]]
